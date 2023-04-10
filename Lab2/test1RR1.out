@@ -1,0 +1,8 @@
+Job   0 -- Turnaround 2.00  Wait 0.00
+Job   1 -- Turnaround 5.00  Wait 3.00
+Job   2 -- Turnaround 11.00  Wait 8.00
+Job   3 -- Turnaround 3.00  Wait 2.00
+Job   4 -- Turnaround 12.00  Wait 9.00
+Job   5 -- Turnaround 15.00  Wait 10.00
+Job   6 -- Turnaround 15.00  Wait 10.00
+Average -- Turnaround 9.00  Wait 6.00

@@ -1,0 +1,17 @@
+Jonathan Schreiber
+
+I implemented in python, so there is no Makefile. Instead, I provided a bashscript called schedSim that can be used to execute the program. You will have to call it using ./schedSim args.
+
+There was a slight discrepency between mine and the given solutions times for a round robin of time 3 in the second test file. However, I worked it out on paper and am confident that my solution is one of the correct solutions. I know you mentioned one of the cases of descrepency is what happens when a job's time quantum ends and a job arrives at the same time. My scheduler's convention is to allow the job that just lost it's quantum to enter into the queue before the new arriving jobs. 
+
+Questions:
+1. SRTN next delievers the same turnaround times as FIFO when the jobs arrive in order from shortest job length to largest job length, or if two jobs arrive at the same time, they have the same job length. 
+
+2. SRTN will deliver the same response times as RR for workloads where the jobs arrive in order from shortest job length to largest job length, and when the quantum length is longer than longest job. 
+
+3. As job lengths increase, response times will also increase in SRTN. This is becuase the simulator will always choose the job that is closest to finishing to run to completion. Since job lengths are on average longer, the shortest remaining job will also be longer on average. Thus, the simulator will take more time running the shortest remaining jobs, increasing the response time for each subsequent job, and thus increasing the response time for the system as a whole. 
+
+4. As quantem lengths increase, response time will also increase with RR. This is because as the quantum increases, jobs that are later in the queue will have to wait longer to run the first time and start responding. In the worst case, the quantum length would be greater than the longest job in the queue. Thus, each job would run to completion. Given N jobs and average job length q, the worst case average response time could be represented by the following equation/function (N)*q + (N-1)*q + (N-2)*q+ ... + 2*q + 1*q = q*(N+N+N + ... + 1 - 1 + 2 - 2) =
+ q*((N^2)/2). 
+
+        

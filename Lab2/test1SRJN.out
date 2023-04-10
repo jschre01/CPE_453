@@ -1,0 +1,8 @@
+Job   0 -- Response: 1.00  Turnaround 2.00  Wait 0.00
+Job   1 -- Response: 3.00  Turnaround 4.00  Wait 2.00
+Job   2 -- Response: 5.00  Turnaround 7.00  Wait 4.00
+Job   3 -- Response: 1.00  Turnaround 1.00  Wait 0.00
+Job   4 -- Response: 6.00  Turnaround 8.00  Wait 5.00
+Job   5 -- Response: 7.00  Turnaround 11.00  Wait 6.00
+Job   6 -- Response: 11.00  Turnaround 15.00  Wait 10.00
+Average -- Response: 4.86  Turnaround 6.86  Wait 3.86

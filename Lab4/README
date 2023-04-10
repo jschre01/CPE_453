@@ -1,0 +1,9 @@
+Jonathan Schreiber
+
+My TinyFS implementation works well. I was able to get all interface functions implemented and thoroughly tested each of them. Users are able to add toggle between multiple disks, add, write to, and read from files, and see what the file system looks like.
+
+I added the additional functionality of being able to rename files and see a list of all files in the system. I have shown that this works, as if the files are printed to the screen, then a file is renamed, the new file name appears. I also added the additional functionality of being able to see the fragments of memory and having a function that defragments memory. I can demonstrate that this wokrs by seeing the memory diagram both before and after defragmentation. 
+
+The only limitation of my file system is that files are not allowed to be named with integers, as this was causing some unpredictable behavior. The only other limitation is that there are a relatively small number of blocks, so not a lot of data is able to be added. 
+
+Also: My video is about 10 minutes long, I was planning on making it double speed but couldn't figure it out so I recommend watching at double speed!
